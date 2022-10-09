@@ -15,13 +15,13 @@ const Layout = ({ children, title }) => {
         <title>{title}</title>
       </Head>
       <Header />
-      <main>{children}</main>
+      <main style={{minHeight:'70vh'}}>{children}</main>
       <Footer />
     </>
   );
 };
 Layout.defaultProps={
-  title:"Social Media App"
+  title:"Social Media App by Techinfo YT"
 }
 
 export default Layout;
